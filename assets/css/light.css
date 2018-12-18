@@ -1,0 +1,15 @@
+.nuxt_btn_base{
+    padding: 4px 12px;
+    background-color:#ffffff;
+    border: none;
+}
+
+.nuxt_btn_primary{
+    border: 1px solid #e33f3f;
+    border-radius: 4px;
+}
+
+.nuxt_btn_primary:hover{
+    background-color: #e33f3f;
+    color: #ffffff;
+}
