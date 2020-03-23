@@ -2,6 +2,10 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
+  server: {
+    port: 8000, // default: 3000
+    host: '0.0.0.0' // default: localhost
+  },
 
   /*
   ** Headers of the page
@@ -59,7 +63,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
